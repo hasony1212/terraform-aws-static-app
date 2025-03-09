@@ -2,24 +2,6 @@
 
 This Terraform project sets up a secure static website hosting infrastructure on AWS using S3 and CloudFront.
 
-## Project Structure
-
-├── prod-env/
-│ ├── terraform.tf # Terraform configuration for production
-│ ├── main.tf # Main production infrastructure
-│ ├── env_config_file/
-│ │ └── prod.tfvars # Production variables
-│ └── backend_config/
-│ └── prod_backend.tfvars # S3 backend configuration
-├── staging-env/
-│ ├── terraform.tf # Terraform configuration for staging
-│ └── main.tf # Main staging infrastructure
-└── s3-static-site/
-├── aws_s3_static_website_bucket.tf # S3 bucket for website
-├── aws_s3_redirect_bucket.tf # S3 bucket for redirects
-├── aws_s3_logs_bucket.tf # S3 bucket for logs
-└── aws_cloudfront_distribution.tf # CloudFront distribution
-
 ## Features
 
 - **Secure S3 Static Website**: Configured with proper access controls
