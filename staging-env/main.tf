@@ -2,7 +2,7 @@
 locals {
   tags = {
     Application_Name = var.domain
-    Approver         = "approver"
+    Approver         = "Approver"
     Environment      = var.env_name
     Business_Uint    = var.domain
   }
