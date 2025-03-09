@@ -2,7 +2,7 @@
 
 This Terraform project sets up a secure static website hosting infrastructure on AWS using S3 and CloudFront.
 
-## Project Structure 
+## Project Structure
 
 ├── prod-env/
 │ ├── terraform.tf # Terraform configuration for production
