@@ -1,4 +1,4 @@
 #App Config 
-domain           = "hdwelee.com"
+domain           = "domain.com"
 env_name         = "staging"
 aws_region       = "us-east-1"
